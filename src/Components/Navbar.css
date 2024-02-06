@@ -1,0 +1,47 @@
+nav {
+  max-width: 719px;
+  height: 56px;
+  background: #161d2f;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+}
+
+#perfil-img {
+  width: 24px;
+  height: 24px;
+}
+
+#icons-container {
+  width: 133.54px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#icons-container > * {
+  width: 16px;
+  height: 16px;
+}
+
+@media (min-width: 710px) {
+  nav {
+    height: 72px;
+    border-radius: 10px;
+  }
+
+  #icons-container > * {
+    width: 20px;
+    height: 20px;
+  }
+
+  #perfil-img {
+    width: 32px;
+    height: 32px;
+  }
+
+  #icons-container {
+    width: 172.92px;
+  }
+}
