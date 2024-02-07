@@ -7,3 +7,7 @@
 body {
   background: #10141e;
 }
+
+main {
+  height: 100vh;
+}

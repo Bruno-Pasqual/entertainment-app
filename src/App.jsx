@@ -6,9 +6,9 @@ function App() {
   console.log(data);
 
   return (
-    <>
+    <main>
       <Navbar />
-    </>
+    </main>
   );
 }
 
